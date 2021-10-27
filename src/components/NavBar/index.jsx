@@ -15,6 +15,10 @@ function NavBar() {
         <div className="navbar-container">
           {/* NAVBAR LOGO  */}
           <Link to="/" className="navbar-logo">
+            <i
+              class="fas fa-crow"
+              style={{ marginRight: "12px", color: "lightblue" }}
+            />
             UMass Lowell Cyber Club
           </Link>
 
