@@ -45,27 +45,19 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
-              <i class="fab fa-typo3" />
+              <i class="fas fa-crow" style={{ marginRight: "10px" }} />
+              UML Riverhawks
             </Link>
           </div>
-          <small class="website-rights">TRVL © 2020</small>
+          <small class="website-rights">© Copyright 2021</small>
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
+              class="social-icon-link discord"
               to="/"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Discord"
             >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i class="fab fa-instagram" />
+              <i class="fab fa-discord" />
             </Link>
             <Link
               class="social-icon-link youtube"
