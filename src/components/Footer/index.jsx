@@ -52,10 +52,10 @@ function Footer() {
           <small className="website-rights">© Copyright 2021</small>
           <div className="social-icons">
             <Link
-              className="social-icon-link discord"
-              to="/"
-              target="_blank"
               aria-label="Discord"
+              className="social-icon-link discord"
+              to={{ pathname: "https://discord.gg/4fTjnZavQa" }}
+              target="_blank"
             >
               <i className="fab fa-discord" />
             </Link>
