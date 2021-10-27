@@ -2,13 +2,14 @@ video {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  /* position: fixed; */
   position: absolute;
   z-index: -1;
 }
 
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  background: url('https://www.lowellsun.com/wp-content/uploads/2019/11/low-l-umasscyber1.jpg') center center/cover no-repeat;
+  /* background-size: 75%; */
+
   height: 100vh;
   width: 100%;
   display: flex;
@@ -23,6 +24,7 @@ video {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
+  text-align: center;
 }
 
 .hero-container > h3 {
@@ -59,9 +61,14 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+  
   .hero-container > h1 {
-    font-size: 50px;
-    margin-top: -100px;
+    font-size: 36px;
+    margin-top: 150px;
+  }
+
+  .hero-container > h3 {
+    font-size: 18px;
   }
 
   .hero-container > p {
@@ -75,5 +82,9 @@ video {
 
   .btn {
     width: 100%;
+  }
+
+  .hero-container {
+    height: 50vh;
   }
 }
