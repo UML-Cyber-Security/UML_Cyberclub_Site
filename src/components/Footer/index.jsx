@@ -49,7 +49,7 @@ function Footer() {
               UML Riverhawks
             </Link>
           </div>
-          <small className="website-rights">© Copyright 2021</small>
+          <small className="website-rights">© UMass Lowell Cybersecurity Club - 2021</small>
           <div className="social-icons">
             <Link
               aria-label="Discord"
@@ -58,30 +58,6 @@ function Footer() {
               target="_blank"
             >
               <i className="fab fa-discord" />
-            </Link>
-            <Link
-              className="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i className="fab fa-youtube" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin" />
             </Link>
           </div>
         </div>
