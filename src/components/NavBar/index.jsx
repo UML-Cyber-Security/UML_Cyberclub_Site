@@ -20,7 +20,7 @@ function NavBar() {
 
           {/* HAMBURGER MENU ICON - OPEN AND CLOSE NAVBAR */}
           <div className="menu-icon" onClick={handleClick}>
-            {click ? "x" : "="}
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
 
           {/* LIST OF LINKS  */}
