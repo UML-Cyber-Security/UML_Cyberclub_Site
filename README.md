@@ -15,3 +15,12 @@ Created using by following this [YouTube Tutorial](https://youtu.be/I2UBjN5ER4s)
 4. Make changes on a seperate branch
 
 5. Open up a pull request
+
+
+## Docker setup
+
+```
+docker build . -t cybersec-site
+
+docker run --name cybersec -p 3000:3000 -d cybersec-site
+```
