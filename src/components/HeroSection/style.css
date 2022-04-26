@@ -9,7 +9,6 @@ video {
 .hero-container {
   background: url('https://www.lowellsun.com/wp-content/uploads/2019/11/low-l-umasscyber1.jpg') center center/cover no-repeat;
   /* background-size: 75%; */
-
   height: 100vh;
   width: 100%;
   display: flex;
